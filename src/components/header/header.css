@@ -1,0 +1,45 @@
+.header {
+  margin: .5rem auto;
+  background: #282828;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.header > * {
+  margin-bottom: 0;
+  
+}
+.header h4 {
+  font-size: 1.2rem;
+}
+.header h4 a {
+  color: #fff;
+}
+.header h4 a:hover {
+  text-decoration: none;
+}
+.header ul {
+  padding: 0;
+  margin-left: auto;
+}
+.header ul li {
+  list-style: none;
+  transition: all ease 0.2s;
+}
+
+.header ul li:not(:last-child){
+  margin-right: 2rem;
+}
+.header ul li:hover {
+  background: rgba(199, 199, 199, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.header ul li a {
+  color: #fff;
+  padding: 1.25rem 1rem;
+  display: inline-block;
+}
+.header ul li a:hover {
+  text-decoration: none;
+}

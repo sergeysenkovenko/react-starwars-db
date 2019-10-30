@@ -1,0 +1,43 @@
+.random-film {
+  display: flex;
+  padding: 2rem;
+  border-radius: 0;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+.film__content{
+  flex-grow: 1;
+}
+.random-film .film-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 2rem;
+  flex-shrink: 0;
+}
+.random-film .film-image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit:contain;
+}
+
+.random-film .list-group {
+  margin-top: 1rem;
+}
+
+.random-film .list-group-item {
+  padding: .5rem;
+  border: none;
+}
+.random-film .list-group-item:hover {
+  cursor: inherit;
+  background-color: #222;
+}
+
+.random-film .list-group-item:not(:last-child){
+  margin-bottom: .1rem;
+}
+
+.random-film .list-group-item .term {
+  margin-right: .5rem;
+}

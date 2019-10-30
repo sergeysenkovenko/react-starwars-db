@@ -1,0 +1,25 @@
+body {
+    color: #ffffff;
+    background: url('https://win.heart.co.uk/starwars-galaxy/img/bg-fallback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.welcome__block {
+    min-height: 250px;
+    background-color: #222;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    .content__wrapper{
+      flex-direction: column;
+    }
+}
