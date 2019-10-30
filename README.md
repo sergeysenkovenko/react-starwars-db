@@ -1,4 +1,4 @@
-## StarWarsDB React App
+## StarWarsDB App
 
 ### `npm start`
 
